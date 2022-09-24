@@ -1,7 +1,9 @@
 <h1>Ola, este é um repositorio com meus estudos de POO em JS</h1>
 Orientação a Objetos em JS
 
-<h2>Em exibir você pode fazer os testes e chamar as propriedades de cada class seja Filho ou Pai</h2>
+<h2>Exibir.js</h2>
+<p></p>
+Em exibir você pode fazer os testes e chamar as propriedades de cada class seja Filho ou Pai
 
 <p></p>
 <p></p>
