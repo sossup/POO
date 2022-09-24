@@ -37,4 +37,11 @@ export class Veiculo {
     get ladoVolante(){
         return this.#ladoVolante
     }
+
+    // exibirInfos() {
+    //     const marca = this.#marca;
+    //     const cor = this.#cor;
+    //     const volante = this.#ladoVolante;
+    //     console.log(`marca:${marca}, cor:${cor} e o volante esta na ${volante}`);
+    //  }
 }
