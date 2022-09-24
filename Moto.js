@@ -1,7 +1,15 @@
-import { Veiculo } from './Veiculo.js';
+import { Veiculo } from './organizandoClassPai.js';
 
 export class Moto extends Veiculo {
-    constructor(marca, motor = true, roda, cor){
+    #cilindrada
+
+    constructor(marca, motor = true, roda, cor, cilindrada){
         super (marca, motor = true, roda, cor);
+        this.#cilindrada = cilindrada;
+
+    }
+
+    get cilindrada(){
+        return cilindrada = this.#cilindrada
     }
 }
