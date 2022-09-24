@@ -1,6 +1,11 @@
 <h1>Ola, este é um repositorio com meus estudos de POO em JS</h1>
 Orientação a Objetos em JS
 
+<h2>Em exibir você pode fazer os testes e chamar as propriedades de cada class seja Filho ou Pai</h2>
+
+<p></p>
+<p></p>
+
 <h2>Veiculo.js</h2>
 você encontrara uma class privada chamada Veiculo, o '#' na frente das propriedades mostra que ela não pode ser alterada depois de ser definida pela primeira vez (caso ela PRECISE ser alterada deve ser usado | set( ){ } | para alterar em uma class filho)
 <p></p>
@@ -56,3 +61,26 @@ interface User {
   nomeCompleto(): string;
 }
 ```
+
+<p></p>
+<p></p>
+<p></p>
+
+<h2>organizandoClassPai.js</h2>
+<p></p>
+Uma class Pai deve ter apenas as propriedades que todas as class filhos irao usar
+<p></p>
+Nem todos os Veiculos tem porta, cilindrada, asa, etc.
+
+<p></p>
+<p></p>
+<p></p>
+
+<h2>Moto.js & Carro.js</h2>
+<p></p>
+São exemplos de class filho!
+
+<h2>Herança.js</h2>
+<p></p>
+Exemplos de como herdar as propriedades de outra class ou função construtura
+
