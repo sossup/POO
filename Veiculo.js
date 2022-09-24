@@ -1,3 +1,6 @@
+//Apartir deste commit sera adicionado o arquivo organizandoClassPai e este arquivo 'Veiculo' caira em desuso 
+//motivo estara em README.md
+
 export class Veiculo {
     #marca;
     #porta;
