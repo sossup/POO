@@ -4,14 +4,14 @@ export class Veiculo {
     #motor;
     #roda;
     #cor;
-    #ladoVolante
+    #ladoVolante;
     constructor(marca, porta, motor = true, roda, cor, ladoVolante){
         this.#marca = marca;
         this.#porta = porta;
         this.#motor = motor;
         this.#roda = roda;
         this.#cor = cor;
-        this.#ladoVolante = ladoVolante
+        this.#ladoVolante = ladoVolante;
     }
 
     get marca(){
@@ -20,6 +20,10 @@ export class Veiculo {
 
     get porta(){
         return this.#porta
+    }
+    
+    get motor(){
+        return this.#motor
     }
 
     get roda(){
